@@ -1,7 +1,7 @@
 import requests
 
 class IconFinder:
-	def __init__(self, api_key: str):
+	def __init__(self, api_key: str) -> None:
 		self.api = "https://api.iconfinder.com/v4"
 		self.api_key = api_key
 		self.headers = {
