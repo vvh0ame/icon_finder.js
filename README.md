@@ -4,7 +4,7 @@ Web-API for [iconfinder.com](https://www.iconfinder.com) an HTTP JSON API and al
 ## Example
 ```JavaScript
 async function main() {
-	const { IconFinder } = require("./riddles_api.js")
+	const { IconFinder } = require("./icon_finder.js")
 	const iconFinder = new IconFinder("apiKey")
 	const categories = await iconFinder.getAllCategories()
 	console.log(categories)
